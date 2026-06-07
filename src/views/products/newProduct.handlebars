@@ -1,0 +1,31 @@
+<h1>New Product</h1>
+
+<form action="/api/products" method="POST">
+  <input type="text" name="title" value="{{title}}" placeholder="Title" />
+  <input
+    type="text"
+    name="description"
+    value="{{description}}"
+    placeholder="Description"
+  />
+  <input type="text" name="code" value="{{code}}" placeholder="Code" />
+
+  <input type="number" name="price" value="{{price}}" placeholder="Price" />
+
+  <input type="number" name="stock" value="{{stock}}" placeholder="Stock" />
+  <input
+    type="text"
+    name="category"
+    value="{{category}}"
+    placeholder="Category"
+  />
+  <input
+    type="text"
+    name="thumbnails"
+    value="{{thumbnails}}"
+    placeholder="Thumbnails"
+  />
+  <button> Create Product </button>
+</form>
+
+<a href="/api/products/list">Back</a>

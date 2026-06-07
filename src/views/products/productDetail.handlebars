@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+<p>Price: ${{price}} </p>
+<p>Stock: {{stock}}</p>
+<p>Category: {{category}}</p>
+
+<form
+  action="/api/carts/6a19017b956612a7ba3862f9/products/{{_id}}?_method=POST"
+  method="POST"
+>
+  <button type="submit">Add to Cart</button>
+</form>
+<a href="/products">Back to Products</a>

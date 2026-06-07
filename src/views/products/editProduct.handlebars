@@ -1,0 +1,29 @@
+<h1>Edit Product</h1>
+
+<form action="/api/products/{{_id}}?_method=PUT" method="POST">
+  <input type="text" name="title" value="{{title}}" placeholder="Title" />
+  <input
+    type="text"
+    name="description"
+    value="{{description}}"
+    placeholder="Description"
+  />
+  <input type="number" name="price" value="{{price}}" placeholder="Price" />
+  <input
+    type="text"
+    name="category"
+    value="{{category}}"
+    placeholder="Category"
+  />
+  <input
+    type="text"
+    name="thumbnails"
+    value="{{thumbnails}}"
+    placeholder="Thumbnails"
+  />
+
+  <input type="number" name="stock" value="{{stock}}" placeholder="Stock" />
+  <button> Update Product</button>
+</form>
+
+<a href="/api/products/list">Back</a>
