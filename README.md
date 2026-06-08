@@ -1,4 +1,4 @@
-Te lo dejo en un archivo .md para que puedas copiarlo directamente. También puedo generarte el archivo listo para descargar si querés.
+
 
 Ecommerce Backend
 Descripción del Proyecto
